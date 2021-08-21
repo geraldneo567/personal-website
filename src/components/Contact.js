@@ -2,8 +2,8 @@ import React from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faDownload, faEnvelope, faLaptopCode, faMailBulk} from "@fortawesome/free-solid-svg-icons";
 import TelegramIcon from '@material-ui/icons/Telegram';
-import {Button} from "@material-ui/core";
-import {Card} from "react-bootstrap";
+
+import {Button, Card} from "react-bootstrap";
 import resumeAnywhereLogo from "../assets/resumeanywhere.jpg";
 import gerousell from "../assets/gerousell.png";
 import website from "../assets/website.png";
@@ -14,7 +14,7 @@ const Contact = () => {
         <div id="contact" style={{paddingBottom: 100}} className="container-fluid bg-light d-flex flex-column align-items-center">
             <div className="row">
                 <div className="col-sm d-flex align-items-center flex-column justify-content-center">
-                    <h1 className={"title-name"} style={{marginTop: 50}}>Contact</h1>
+                    <h1 className={"title-name"} style={{marginTop: '15%'}}>Contact</h1>
                     <div className="divider-custom divider">
                         <div className="divider-custom-line"></div>
                         <div className="divider-custom-icon"><FontAwesomeIcon icon={faLaptopCode}/></div>
@@ -48,22 +48,22 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-sm d-flex align-items-center justify-content-center">
-                        <a target={'_blank'} style={{textDecoration: "none"}} href={"https://drive.google.com/uc?export=download&id=1fkNrGojmOfYuU9Odgnf_BjNFh3tlV-V0"}>
-                            <Button style={{backgroundColor: '#4abdac', width: '600px', height: '80px',marginTop:'30px'}} size={'large'}>
-                                <h2>Download Resume</h2>
-                                <img style={{width: '40px', height: '40px', marginLeft: '95px', marginBottom: '13px'}} src={"https://image.flaticon.com/icons/png/512/724/724933.png"} />
+                    <div className="col-sm-12 d-flex align-items-center justify-content-center">
+                        <a target={'_blank'} className={""} style={{textDecoration: "none", alignItems: "center"}} href={"https://drive.google.com/uc?export=download&id=1fkNrGojmOfYuU9Odgnf_BjNFh3tlV-V0"}>
+                            <Button style={{backgroundColor: '#4abdac', width: '100%', height: '50%', marginTop: "10%"}} size={'large'}>
+                                <h2>Resume</h2>
+                                <img style={{width: "7%", height: "7%"}} src={"https://image.flaticon.com/icons/png/512/724/724933.png"} />
                             </Button>
                         </a>
 
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-sm d-flex align-items-center justify-content-center">
+                    <div className="col-sm-12 d-flex align-items-center justify-content-center">
                         <a target={"_blank"} style={{textDecoration: "none"}} href={'https://drive.google.com/uc?export=download&id=1xDwCQDzoPdcW22u2s9xGj0zvpYb2QSb0'}>
-                            <Button style={{backgroundColor: '#4abdac', width: '600px', height: '80px',marginTop:'30px'}} size={'large'}>
-                                <h2>Download Transcript</h2>
-                                <img style={{width: '40px', height: '40px', marginLeft: '30px', marginBottom: '13px'}} src={"https://image.flaticon.com/icons/png/512/724/724933.png"} />
+                            <Button style={{backgroundColor: '#4abdac', width: '100%', height: '50%', marginTop: "10%"}} size={'large'}>
+                                <h2>Transcript</h2>
+                                <img style={{width: "7%", height: "7%"}} src={"https://image.flaticon.com/icons/png/512/724/724933.png"} />
                             </Button>
                         </a>
                     </div>

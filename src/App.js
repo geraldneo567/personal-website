@@ -37,10 +37,23 @@ function App() {
 
     useEffect(() => {
         const intro = document.body.querySelectorAll(".intro-text")
+        const navbarCollapsible = document.body.querySelector('#topNav');
+        const link = document.body.querySelectorAll("#navbar-link");
+        const name = document.body.querySelectorAll("#navbar-name")
+        const pic = document.body.querySelector("#pic");
+
         if (isMobile) {
             intro.forEach(x => {
                 x.classList.add("small-text");
             })
+            navbarCollapsible.classList.remove('py-4');
+            link.forEach(x => {
+                x.classList.add("smaller-font");
+            })
+            name.forEach(x => {
+                x.classList.add("smallest-font");
+            })
+            pic.classList.add('smaller-picture')
         } else {
             intro.forEach(x => {
                 x.classList.remove('small-text');
@@ -56,7 +69,7 @@ function App() {
             const pic = document.body.querySelector("#pic");
 
             let currentPosition = window.pageYOffset; // or use document.documentElement.scrollTop;
-            if (!currentPosition > 0 ) {
+            if (!currentPosition > 0 && !isMobile) {
                 navbarCollapsible.classList.add("py-4");
                 link.forEach(x => {
                     x.classList.remove("smaller-font");
