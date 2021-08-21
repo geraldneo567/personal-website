@@ -23,7 +23,7 @@ const Title = () => {
 
                         </div>
                         <div className={"col-5"}>
-                            <p  style={{alignSelf: "center"}}>
+                            <p className={"intro-text"} style={{alignSelf: "center"}}>
                                 I am Gerald, a Year 2 NUS Student pursuing a Double Degree in Computer Science & Business.
                             </p>
                         </div>
@@ -35,7 +35,7 @@ const Title = () => {
                         <div className={"col"}>
                         </div>
                         <div className={"col-5"}>
-                            <p  id="last-title" style={{alignSelf: "center"}}>
+                            <p  id="last-title" className={"intro-text"} style={{alignSelf: "center"}}>
                                 Deeply passionate about all things tech, with a tenacity to make meaningful contributions whilst picking up and mastering many new, important skills along the way.
                             </p>
                         </div>

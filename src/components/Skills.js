@@ -19,7 +19,7 @@ const Skills = () => {
                     <div className="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center">
                         <ul className="list-group flex-grow-1">
                             <li className="list-group-item d-flex justify-content-center align-items-center">
-                                <h1 style={{fontWeight: "bolder", textAlign: 'center', marginRight: 65, marginTop: 15}}>Tech Stack <h5>(so far)...</h5></h1>
+                                <h1 style={{fontWeight: "bolder", textAlign: 'center', marginRight: 65, marginTop: 15}}>Tech<h5>(so far)...</h5></h1>
                                 <FontAwesomeIcon icon={faKeyboard} className={"fa-3x"}/>
                             </li>
                             <li className="list-group-item d-flex justify-content-between align-items-center">

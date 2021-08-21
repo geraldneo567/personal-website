@@ -9,27 +9,53 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Helmet} from 'react-helmet';
 import {Col, Container, Row} from "react-bootstrap";
 import React, {useState, useEffect} from "react";
-import {isMobile} from 'react-device-detect';
+
+function getWindowDimensions() {
+    const { innerWidth: width, innerHeight: height } = window;
+    return {
+        width,
+        height
+    };
+}
+
 
 function App() {
     const [scrollTop, setScrollTop] = useState(0);
-    const [Mobile, setMobile] = useState(false);
-    if (isMobile) {
-        setMobile(true);
+    const [width, setWidth] = useState(window.innerWidth);
+    const [isMobile, setIsMobile] = useState(false);
+    function handleWindowSizeChange() {
+        setWidth(window.innerWidth);
     }
+
+    useEffect(() => {
+        window.addEventListener('resize', handleWindowSizeChange);
+        return () => {
+            window.removeEventListener('resize', handleWindowSizeChange);
+        }
+        setIsMobile(width <= 768)
+    }, []);
+
+    useEffect(() => {
+        const intro = document.body.querySelectorAll(".intro-text")
+        if (isMobile) {
+            intro.forEach(x => {
+                x.classList.add("small-text");
+            })
+        } else {
+            intro.forEach(x => {
+                x.classList.remove('small-text');
+            })
+        }
+    }, [isMobile])
+
     useEffect(() => {
         function onScroll() {
             const navbarCollapsible = document.body.querySelector('#topNav');
             const link = document.body.querySelectorAll("#navbar-link");
             const name = document.body.querySelectorAll("#navbar-name")
             const pic = document.body.querySelector("#pic");
-            const intro = document.body.querySelectorAll(".intro-text")
+
             let currentPosition = window.pageYOffset; // or use document.documentElement.scrollTop;
-            if (Mobile) {
-                intro.forEach(x => {
-                    x.classList.add("intro-text");
-                })
-            }
             if (!currentPosition > 0 ) {
                 navbarCollapsible.classList.add("py-4");
                 link.forEach(x => {

@@ -64,7 +64,7 @@ Title
 }
 
 .title-name {
-    font-size: 75px !important;
+    font-size: 60px !important;
 }
 
 
@@ -101,7 +101,11 @@ Title
 }
 
 .intro-text {
-    font-size: 14px;
+
+}
+
+.small-text {
+    font-size: 13px;
     margin-left: 25px;
 }
 

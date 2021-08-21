@@ -11,7 +11,7 @@ import website from "../assets/website.png";
 
 const Contact = () => {
     return (
-        <div id="contact" style={{paddingBottom: 100}} className="bg-light d-flex flex-column align-items-center">
+        <div id="contact" style={{paddingBottom: 100}} className="container-fluid bg-light d-flex flex-column align-items-center">
             <div className="row">
                 <div className="col-sm d-flex align-items-center flex-column justify-content-center">
                     <h1 className={"title-name"} style={{marginTop: 50}}>Contact</h1>
@@ -49,18 +49,23 @@ const Contact = () => {
                 </div>
                 <div className="row">
                     <div className="col-sm d-flex align-items-center justify-content-center">
-                        <Button style={{backgroundColor: '#4abdac', width: '600px', height: '80px',marginTop:'30px'}} size={'large'}>
-                            <h2>Download Resume</h2>
-                            <img style={{width: '40px', height: '40px', marginLeft: '95px', marginBottom: '13px'}} src={"https://image.flaticon.com/icons/png/512/724/724933.png"} />
-                        </Button>
+                        <a target={'_blank'} style={{textDecoration: "none"}} href={"https://drive.google.com/uc?export=download&id=1fkNrGojmOfYuU9Odgnf_BjNFh3tlV-V0"}>
+                            <Button style={{backgroundColor: '#4abdac', width: '600px', height: '80px',marginTop:'30px'}} size={'large'}>
+                                <h2>Download Resume</h2>
+                                <img style={{width: '40px', height: '40px', marginLeft: '95px', marginBottom: '13px'}} src={"https://image.flaticon.com/icons/png/512/724/724933.png"} />
+                            </Button>
+                        </a>
+
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-sm d-flex align-items-center justify-content-center">
-                        <Button style={{backgroundColor: '#4abdac', width: '600px', height: '80px',marginTop:'30px'}} size={'large'}>
-                            <h2>Download Transcript</h2>
-                            <img style={{width: '40px', height: '40px', marginLeft: '30px', marginBottom: '13px'}} src={"https://image.flaticon.com/icons/png/512/724/724933.png"} />
-                        </Button>
+                        <a target={"_blank"} style={{textDecoration: "none"}} href={'https://drive.google.com/uc?export=download&id=1xDwCQDzoPdcW22u2s9xGj0zvpYb2QSb0'}>
+                            <Button style={{backgroundColor: '#4abdac', width: '600px', height: '80px',marginTop:'30px'}} size={'large'}>
+                                <h2>Download Transcript</h2>
+                                <img style={{width: '40px', height: '40px', marginLeft: '30px', marginBottom: '13px'}} src={"https://image.flaticon.com/icons/png/512/724/724933.png"} />
+                            </Button>
+                        </a>
                     </div>
                 </div>
             </div>
