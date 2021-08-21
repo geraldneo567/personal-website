@@ -9,18 +9,28 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Helmet} from 'react-helmet';
 import {Col, Container, Row} from "react-bootstrap";
 import React, {useState, useEffect} from "react";
+import {isMobile} from 'react-device-detect';
+
 function App() {
     const [scrollTop, setScrollTop] = useState(0);
-
-
+    const [Mobile, setMobile] = useState(false);
+    if (isMobile) {
+        setMobile(true);
+    }
     useEffect(() => {
         function onScroll() {
             const navbarCollapsible = document.body.querySelector('#topNav');
             const link = document.body.querySelectorAll("#navbar-link");
             const name = document.body.querySelectorAll("#navbar-name")
-            const pic = document.body.querySelector("#pic")
+            const pic = document.body.querySelector("#pic");
+            const intro = document.body.querySelectorAll(".intro-text")
             let currentPosition = window.pageYOffset; // or use document.documentElement.scrollTop;
-            if (!currentPosition > 0) {
+            if (Mobile) {
+                intro.forEach(x => {
+                    x.classList.add("intro-text");
+                })
+            }
+            if (!currentPosition > 0 ) {
                 navbarCollapsible.classList.add("py-4");
                 link.forEach(x => {
                     x.classList.remove("smaller-font");
@@ -29,6 +39,7 @@ function App() {
                     x.classList.remove("smallest-font");
                 })
                 pic.classList.remove('smaller-picture')
+
             } else {
                 navbarCollapsible.classList.remove('py-4');
                 link.forEach(x => {
@@ -50,6 +61,7 @@ function App() {
     <div>
         <Helmet>
             <style>{'body { background-color: #4abdac; }'}</style>
+            <title>{ "Gerald Neo's Portfolio" }</title>
         </Helmet>
         <NavigationBar/>
         <Title />

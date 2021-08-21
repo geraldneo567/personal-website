@@ -69,7 +69,7 @@ Title
 
 
 .divider-custom {
-    margin: 1.25rem 0 1.5rem;
+    margin: 1.5rem 0 1.5rem;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -100,6 +100,11 @@ Title
     color: #fff;
 }
 
+.intro-text {
+    font-size: 14px;
+    margin-left: 25px;
+}
+
 /*projects*/
 .project-description {
     font-size: 16px;
@@ -118,4 +123,17 @@ Title
     border-color: black;
     background-color: royalblue;
     margin: 25px;
+}
+
+.btn-circle.btn-small {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 100%;
+    font-size: 24px;
+    line-height: 1.33;
+    text-align: center;
+    border-color: black;
+    background-color: royalblue;
+    margin: 10px;
 }
