@@ -1,29 +1,28 @@
 {
   "files": {
     "main.css": "/personal-website/static/css/main.383b54f4.chunk.css",
-    "main.js": "/personal-website/static/js/main.562f93be.chunk.js",
-    "main.js.map": "/personal-website/static/js/main.562f93be.chunk.js.map",
-    "runtime-main.js": "/personal-website/static/js/runtime-main.35221d31.js",
-    "runtime-main.js.map": "/personal-website/static/js/runtime-main.35221d31.js.map",
+    "main.js": "/personal-website/static/js/main.79b81ec7.chunk.js",
+    "main.js.map": "/personal-website/static/js/main.79b81ec7.chunk.js.map",
+    "runtime-main.js": "/personal-website/static/js/runtime-main.fb3ffe0c.js",
+    "runtime-main.js.map": "/personal-website/static/js/runtime-main.fb3ffe0c.js.map",
     "static/css/2.c490997a.chunk.css": "/personal-website/static/css/2.c490997a.chunk.css",
-    "static/js/2.8ee7128a.chunk.js": "/personal-website/static/js/2.8ee7128a.chunk.js",
-    "static/js/2.8ee7128a.chunk.js.map": "/personal-website/static/js/2.8ee7128a.chunk.js.map",
-    "static/js/3.c9312259.chunk.js": "/personal-website/static/js/3.c9312259.chunk.js",
-    "static/js/3.c9312259.chunk.js.map": "/personal-website/static/js/3.c9312259.chunk.js.map",
+    "static/js/2.920be2f5.chunk.js": "/personal-website/static/js/2.920be2f5.chunk.js",
+    "static/js/2.920be2f5.chunk.js.map": "/personal-website/static/js/2.920be2f5.chunk.js.map",
+    "static/js/3.08206362.chunk.js": "/personal-website/static/js/3.08206362.chunk.js",
+    "static/js/3.08206362.chunk.js.map": "/personal-website/static/js/3.08206362.chunk.js.map",
     "index.html": "/personal-website/index.html",
     "static/css/2.c490997a.chunk.css.map": "/personal-website/static/css/2.c490997a.chunk.css.map",
     "static/css/main.383b54f4.chunk.css.map": "/personal-website/static/css/main.383b54f4.chunk.css.map",
-    "static/js/2.8ee7128a.chunk.js.LICENSE.txt": "/personal-website/static/js/2.8ee7128a.chunk.js.LICENSE.txt",
+    "static/js/2.920be2f5.chunk.js.LICENSE.txt": "/personal-website/static/js/2.920be2f5.chunk.js.LICENSE.txt",
     "static/media/avatar.721060ac.png": "/personal-website/static/media/avatar.721060ac.png",
     "static/media/gerousell.0bff7edc.png": "/personal-website/static/media/gerousell.0bff7edc.png",
-    "static/media/logo.6ce24c58.svg": "/personal-website/static/media/logo.6ce24c58.svg",
     "static/media/pic.8f07e74a.png": "/personal-website/static/media/pic.8f07e74a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.35221d31.js",
+    "static/js/runtime-main.fb3ffe0c.js",
     "static/css/2.c490997a.chunk.css",
-    "static/js/2.8ee7128a.chunk.js",
+    "static/js/2.920be2f5.chunk.js",
     "static/css/main.383b54f4.chunk.css",
-    "static/js/main.562f93be.chunk.js"
+    "static/js/main.79b81ec7.chunk.js"
   ]
 }
