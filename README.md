@@ -1,6 +1,7 @@
 # Personal Website
 
-Just a Personal Website I created on the side, to highlight my projects and skills!
+Just a Personal Website I created on the side, to highlight my projects and skills! 
+View on https://geraldneo567.github.io/personal-website/
 
 ## Available Scripts
 
