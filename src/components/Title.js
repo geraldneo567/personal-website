@@ -17,32 +17,43 @@ const Title = () => {
                             <div className="divider-custom-icon"><FontAwesomeIcon icon={faLaptopCode}/></div>
                             <div className="divider-custom-line"></div>
                         </div>
-                    </div>
-                    <div className={"row"}>
                         <div className={"col"}>
 
                         </div>
-                        <div className={"col-5"}>
-                            <p className={"intro-text"} style={{alignSelf: "center"}}>
+                        <div className={"col-s-4 col-lg-12"}>
+                            <p className={" intro-text"} style={{textAlign: "center", width: "100%"}}>
                                 I am Gerald, a Year 2 NUS Student pursuing a Double Degree in Computer Science & Business.
                             </p>
                         </div>
                         <div className={"col"}>
 
                         </div>
-                    </div>
-                    <div className={"row"}>
-                        <div className={"col"}>
-                        </div>
-                        <div className={"col-5"}>
-                            <p  id="last-title" className={"intro-text"} style={{alignSelf: "center"}}>
-                                Deeply passionate about all things tech, with a tenacity to make meaningful contributions whilst picking up and mastering many new, important skills along the way.
-                            </p>
-                        </div>
-                        <div className={"col"}>
+                        <div className={"row"}>
+                            <div className={"col"}>
+                            </div>
+                            <div className={"col-s-4 col-lg-6"}>
+                                <p  id="last-title" className={"intro-text"} style={{alignSelf: "center"}}>
+                                    Deeply passionate about all things tech, with a tenacity to make meaningful contributions whilst picking up and mastering many new, important skills along the way.
+                                </p>
+                            </div>
+                            <div className={"col"}>
 
+                            </div>
+                        </div>
+                        <div className={"row"}>
+                            <div className={"col"}>
+                            </div>
+                            <div className={"col-s-4 col-lg-6"}>
+                                <p  id="last-title" className={"intro-text"} style={{alignSelf: "center"}}>
+                                    Scroll down to find out more!
+                                </p>
+                            </div>
+                            <div className={"col"}>
+
+                            </div>
                         </div>
                     </div>
+
                 </div>
         </div>
 

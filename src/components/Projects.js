@@ -9,7 +9,7 @@ import {Button} from "react-bootstrap";
 
 const Projects = () => {
     return (
-        <div id="projects" style={{marginTop: 50, marginBottom: 50}} className="container-fluid d-flex align-items-center flex-column bg-light">
+        <div id="projects" style={{marginTop: '10%', marginBottom: '5%'}} className="container-fluid d-flex align-items-center flex-column bg-light">
             <div className="row">
                 <div className="col-12 d-flex align-items-center flex-column justify-content-center">
                     <h1 className={"title-name"} style={{marginTop: 50}}>Projects</h1>
@@ -21,7 +21,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className="container" style={{marginBottom: 50}}>
+            <div className="container" style={{marginBottom: '5%'}}>
                 <div className="row d-flex justify-content-center mb-4">
                     <div className="col-xl-4 col-sm-6 col-xs-12 d-flex justify-content-center">
                         <Card style={{ height: '100%', width: '90%', borderRadius: "20%", backgroundColor: "#840c24"}}>

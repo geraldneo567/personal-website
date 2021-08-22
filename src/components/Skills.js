@@ -63,38 +63,38 @@ const Skills = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center">
+                    <div  className="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center">
                         <ul className="list-group flex-grow-1">
                             <li className="list-group-item d-flex justify-content-center align-items-center">
                                 <h1 style={{fontWeight: "bolder", textAlign: 'center', marginRight: 105, marginTop: 15}}>Modules<h5>(so far)...</h5></h1>
                                 <FontAwesomeIcon icon={faBook} className={"fa-3x"}/>
                             </li>
                             <li className="list-group-item d-flex justify-content-between align-items-center">
-                               <a target={"_blank"} href={"https://nusmods.com/modules/CS1101S/programming-methodology"}><h4>CS1101S (Programming)</h4></a>
+                               <a target={"_blank"} href={"https://nusmods.com/modules/CS1101S/programming-methodology"}><h4>CS1101S (Programming Methodology)</h4></a>
                             </li>
                             <li className="list-group-item d-flex justify-content-between align-items-center">
-                                <a target={"_blank"} href={"https://nusmods.com/modules/CS2030S/programming-methodology-ii"}><h4>CS2030S (Programming II)</h4></a>
+                                <a target={"_blank"} href={"https://nusmods.com/modules/CS2030S/programming-methodology-ii"}><h4>CS2030S (Programming Methodology II)</h4></a>
                             </li>
                             <li className="list-group-item d-flex justify-content-between align-items-center">
-                                <a target={"_blank"} href={"https://nusmods.com/modules/CS2040S/data-structures-and-algorithms"}> <h4>CS2040S (Data Structures)</h4></a>
+                                <a target={"_blank"} href={"https://nusmods.com/modules/CS2040S/data-structures-and-algorithms"}> <h4>CS2040S (Data Structures & Algos)</h4></a>
                             </li>
                             <li className="list-group-item d-flex justify-content-between align-items-center">
-                                <a target={"_blank"} href={"https://nusmods.com/modules/CS2100/computer-organisation"}><h4>CS2100 (Comp Organisation)</h4></a>
+                                <a target={"_blank"} href={"https://nusmods.com/modules/CS2100/computer-organisation"}><h4>CS2100 (Computer Organisation)</h4></a>
                             </li>
                             <li className="list-group-item d-flex justify-content-between align-items-center">
-                                <a target={"_blank"} href={"https://nusmods.com/modules/CS2107/introduction-to-information-security"}><h4>CS2107 (Info Security)</h4></a>
+                                <a target={"_blank"} href={"https://nusmods.com/modules/CS2107/introduction-to-information-security"}><h4>CS2107 (Intro to Information Security)</h4></a>
                             </li>
                             <li className="list-group-item d-flex justify-content-between align-items-center">
-                                <a target={"_blank"} href={"https://nusmods.com/modules/CS1231S"}><h4>CS1231s (Discrete Math)</h4></a>
+                                <a target={"_blank"} href={"https://nusmods.com/modules/CS1231S"}><h4>CS1231S (Discrete Structures)</h4></a>
                             </li>
                             <li className="list-group-item d-flex justify-content-between align-items-center">
                                 <a target={"_blank"} href={"https://nusmods.com/modules/BPM1702"}><h4>BPM1702 (Microsoft Excel)</h4></a>
                             </li>
                             <li className="list-group-item d-flex justify-content-between align-items-center">
-                                <a target={"_blank"} href={"https://nusmods.com/modules/MKT1705"}><h4>MKT1705 (Marketing)</h4></a>
+                                <a target={"_blank"} href={"https://nusmods.com/modules/MKT1705"}><h4>MKT1705 (Principles of Marketing)</h4></a>
                             </li>
                             <li className="list-group-item d-flex justify-content-between align-items-center">
-                                <a target={"_blank"} href={"https://nusmods.com/modules/ACC1701"}><h4>ACC1701 (Accounting)</h4></a>
+                                <a target={"_blank"} href={"https://nusmods.com/modules/ACC1701"}><h4>ACC1701 (Accounting for Decision Makers)</h4></a>
                             </li>
                         </ul>
                     </div>

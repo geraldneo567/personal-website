@@ -60,7 +60,6 @@ function App() {
             })
         }
     }, [isMobile])
-
     useEffect(() => {
         function onScroll() {
             const navbarCollapsible = document.body.querySelector('#topNav');

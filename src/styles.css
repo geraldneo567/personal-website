@@ -14,7 +14,6 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
 }
 
-
 /*
 <!-- Navbar !-- >
  */
@@ -37,17 +36,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-img {
-    width: 85px;
-    height: 85px;
+    width: 60px;
+    height: 60px;
     border-radius: 35%;
-    margin-right: 25px;
 }
 
 .smaller-picture {
     width: 50px;
     height: 50px;
     border-radius: 35%;
-    margin-right: 25px;
 }
 
 .smaller-font {
@@ -55,6 +52,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .smallest-font {
     visibility: hidden;
+}
+
+.max-width {
+    max-width: 100vw;
 }
 
 /*
